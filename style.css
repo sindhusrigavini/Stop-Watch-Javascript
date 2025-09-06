@@ -1,0 +1,35 @@
+body {
+    margin-top: 20%;
+    margin-left: 20%;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#clock_timer {
+    font-size: 50px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+.start, .stop {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+.start:hover, .stop:hover {
+    background-color: deepskyblue;
+}
